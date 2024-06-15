@@ -1,0 +1,138 @@
+.menu{
+height:10%;
+width:100%;
+display: flex;
+align-items:center;
+}
+
+body{
+    cursor:url(cursor7.png), auto;
+    margin: 0px;
+    height: 100vh;
+}
+
+.link-activ {
+    position: relative;
+    top: 10%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 40px;
+    display: block;
+    font-size: 30px;
+    font-weight: bold;
+    color: grey;
+    text-decoration: none;
+    margin-top: 10px;
+    width: 300px;
+}
+
+.titlu {
+position: absolute;
+left: 50%;
+box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+transform: translate(-50%);
+border-radius: 10px;
+font-size: 50px;
+height: 10%;
+width: 30%;
+display: flex;
+justify-content: center;
+align-items: center;
+font-weight: bold;
+}
+
+.lista{
+position: fixed;
+top: 0;
+height: 100%;
+z-index: 2;
+background-color: rgba(0, 0, 0);
+width: 0px;
+overflow: hidden;
+transition: 0.8s;
+flex-direction: column;
+}
+
+.link{
+    position: relative;
+    top: 10%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 40px;
+    display: block;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-top: 10px;
+    width: 300px;
+}
+
+.link:hover {
+    color: grey;
+}
+
+a:-webkit-any-link, .toggle:hover{
+    cursor: url(cursor6.png), auto;
+}
+
+.fa, .fa-brands, .fa-duotone, .fa-light, .fa-regular, .fa-solid, .fa-thin, .fab, .fad, .fal, .far, .fas, .fat {
+font-size: 30px;
+}
+
+.toggle{
+    position: fixed;
+    width: 70px;
+    height: 70px;
+    background: #fff;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    overflow: hidden;
+    z-index: 3;
+}
+
+.toggle span{
+    position: absolute;
+    width: 40px;
+    height: 4px;
+    background: #000000;
+    border-radius: 4px;
+    transition: 0.8s;
+}
+
+.toggle span:nth-child(1){
+    transform: translateY(-15px);
+    width: 25px;
+    left: 15px;
+}
+
+.toggle.active span:nth-child(1){
+    width: 40px;
+    transform: translateY(0px) rotate(45deg);
+    transition-delay: 0.125s;
+}
+
+.toggle span:nth-child(2){
+    transform: translateY(15px);
+    width: 15px;
+    left: 15px;
+}
+
+.toggle.active span:nth-child(2){
+    width: 40px;
+    transform: translateY(0px) rotate(315deg);
+    transition-delay: 0.25s;
+
+}
+
+.toggle.active span:nth-child(3){
+    transform: translateX(60px);
+}
+
+
+/* CSS Document */
+

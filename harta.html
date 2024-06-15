@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Untitled Document</title>
+<script src="https://kit.fontawesome.com/46a1aaf810.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="index.css">
+<link rel="stylesheet" href="menu.css">
+<link rel="stylesheet" href="harta.css">
+<link rel="stylesheet" type="text/css" href="https://js.api.here.com/v3/3.1/mapsjs-ui.css" />
+<meta name="viewport" content="initial-scale=1.0, width=device-width" />
+<script type="text/javascript" src="https://js.api.here.com/v3/3.1/mapsjs-core.js"></script>
+    <script type="text/javascript" src="https://js.api.here.com/v3/3.1/mapsjs-service.js"></script>
+    <script type="text/javascript" src="https://js.api.here.com/v3/3.1/mapsjs-ui.js"></script>
+    <script type="text/javascript" src="https://js.api.here.com/v3/3.1/mapsjs-mapevents.js"></script>
+
+</head>
+<body>
+<div class="lista" id="list">
+	<a href = "index.html" class="link">Home</a>
+	<a href="experienta.html" class="link">Experienta proprie</a>
+	<a href="lista.html" class="link">Lista Trasee</a>
+	<p class="link-activ">Harta Trasee</p>
+</div>
+<div class="menu">
+	<div class="toggle" onclick="menu()">
+		<span></span>
+		<span></span>
+		<span></span>
+	</div>
+	<p class="titlu">Harta trasee</p>
+</div>
+<div class="continut">
+    <div id = "harta">
+
+    </div>
+</div>
+<script src="menu.js"></script>
+<script src="harta.js"></script>
+</body>
+</html>

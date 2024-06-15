@@ -1,0 +1,13 @@
+.carousel, .slide{
+    margin-top: 20px;
+    width: 50%;
+}
+
+img {
+    height: 500px;
+    border-radius: 10px;
+}
+
+.carousel-control-next:hover{
+    cursor: url(cursor7.png);
+}

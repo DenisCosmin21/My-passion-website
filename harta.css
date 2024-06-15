@@ -1,0 +1,39 @@
+#harta {
+    height: 85vh;
+    width: 130vh;
+    border-radius: 10px;
+}
+
+#harta div{
+    border-radius: 20px;
+}
+.continut {
+    height: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info{
+    height: 50px;
+    width: 50px;
+}
+
+.bula {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 20px;
+}
+.data {
+    font-size: 15px;
+    font-weight: bold;
+    font-style: italic;
+}
